@@ -20,7 +20,7 @@ const Comments: FC<CommentsProps> = async ({ postId }) => {
     <div className='mt-8'>
       <h2 className='text-2xl font-bold'>Comments</h2>
       <ul>
-        {comments.map((comment) => (
+        {comments.map((comment:any) => (
           <li key={comment.id} className='mb-4 bg-slate-300 p-2'>
             <div className='flex items-center mb-2'>
               <div className='text-blue-500 font-bold mr-2'>
